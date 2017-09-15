@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kraputis.meginam.RegistracijaFragment">
+
+    <TextView
+        android:id="@+id/pav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="@string/zaidimo_titulinis"
+        android:textSize="36sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/PLAY_mygtukas"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pav"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="124dp"
+        android:onClick="Zaisti"
+        android:text="@string/zaidimo_mz"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/INS_mygtukas"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PLAY_mygtukas"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:onClick="Instrukcija"
+        android:text="@string/zaidimo_mi" />
+
+    <Button
+        android:id="@+id/STUDIO_mygtukas"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="Kontaktai"
+        android:text="@string/zaidimo_min"
+        tools:ignore="RelativeOverlap" />
+
+    <Button
+        android:id="@+id/SCORE_mygtukas"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/PLAY_mygtukas"
+        android:layout_below="@+id/INS_mygtukas"
+        android:layout_marginTop="15dp"
+        android:onClick="Taskai"
+        android:text="@string/zaidimo_mg" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:onClick="ltu"
+        app:srcCompat="@drawable/lt"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="eng"
+        app:srcCompat="@drawable/en"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/INS_mygtukas"
+        android:layout_marginEnd="28dp"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>

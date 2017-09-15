@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_maps">Studio</string>
+    <string name="app_name">Counter-Point</string>
+    <string name="zadimo_instrukcija">test me</string>
+    <string name="zaidimo_instrukcija_titulinis">How to play?</string>
+    <string name="zaidimo_titulinis">Counter-Point</string>
+    <string name="zaidimo_mg">Top 5</string>
+    <string name="zaidimo_mi">Instruction</string>
+    <string name="zaidimo_min">Info</string>
+    <string name="zaidimo_mk">LTU</string>
+    <string name="zaidimo_mz">Play</string>
+    <string name="zaidimo_lyg1">Level 1</string>
+    <string name="zaidimo_mats">Apeared</string>
+    <string name="zaidimo_mkar">Reset</string>
+    <string name="zaidimo_mp">Start</string>
+    <string name="zaidimo_ms">Destroyed</string>
+    <string name="zaidimo_lyg2">Level 2</string>
+    <string name="reg_mpatv">Submit</string>
+    <string name="reg_title">Enter nickname</string>
+    <string name="top_taskai">Your score</string>
+    <string name="top_titulinis">Top 5</string>
+</resources>

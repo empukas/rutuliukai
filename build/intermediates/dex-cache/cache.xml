@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/robertaksamaitis/Downloads/meginam/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="de88432411ffaac0664e78b08d4dc1937f53e2ca">
+        <dex dex="/Users/robertaksamaitis/Downloads/meginam/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_25fa486711ecaee2a7fabd85ca27a5ebd004e7dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robertaksamaitis/Downloads/meginam/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/Users/robertaksamaitis/Downloads/meginam/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_62ac09771be76a58ed925643e11896603f8416e3/classes.dex" />
+    </item>
+
+</items>

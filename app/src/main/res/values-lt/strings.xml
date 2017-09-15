@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">Rutuliukai</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_maps">Studio</string>
+    <string name="zadimo_instrukcija">Pradejus žaidimą, atsiranda juodi rutuliukai, kuriuos turite sunaikinti paspausdami ant jų pirstu!
+        Nespėjus to padaryti - praleidus didinate galimybę pralaimėti! Beje raudonieji megins pakišt jum koją, būkite atidūs.
+        Būk atidus, sunaikinus rutulį gausite 1 taską, kuris proceso metu sumuosis, jei jūsų taskų skirtumas ir atsiradusiu rutuliukų bus 15
+        deje teks pradeti iš naujo, bet nenusiminkite surinkti taškai pralaimejus bus sumuojami kas kartą jūsų statistikoje, surinkus jų
+        daug galite aptikti save tarp 5 geriausių žaidejų saraše! Žinoma laimėjus gausite surinktų taskų padvigubinimą!!
+    </string>
+    <string name="zaidimo_instrukcija_titulinis">Kaip žaisti?</string>
+    <string name="zaidimo_titulinis">Rutuliukai</string>
+    <string name="zaidimo_mz">Žaisti</string>
+    <string name="zaidimo_mi">Instrukcija</string>
+    <string name="zaidimo_mg">Geriausi 5</string>
+    <string name="zaidimo_mk">Anglų k.</string>
+    <string name="zaidimo_min">Kontaktai</string>
+    <string name="zaidimo_lyg1">Lygis 1</string>
+    <string name="zaidimo_lyg2">Lygis 2</string>
+    <string name="zaidimo_mp">Pradėti</string>
+    <string name="zaidimo_mkar">Kartoti</string>
+    <string name="zaidimo_ms">Sunaikinta</string>
+    <string name="zaidimo_mats">Atsirado</string>
+    <string name="reg_title">Įveskite slapyvardį</string>
+    <string name="reg_mpatv">Patvirtinti</string>
+    <string name="top_taskai">Tavo taškai</string>
+    <string name="top_titulinis">Geriausi 5</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/top_list_style"
+    android:layout_margin="5dp"
+    android:layout_marginBottom="5dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:text="Vardas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vardas_field"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:text="TASKAI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/taskai_field"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_green_light"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+</LinearLayout>

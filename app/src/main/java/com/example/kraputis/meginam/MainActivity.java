@@ -61,6 +61,9 @@ public class MainActivity extends AppCompatActivity implements RegistracijaFragm
 
 
         m = getRandomString(6).toString();
+
+
+
         Log.i("ziurim", "slapt : " +m);
        // m = getResources().getConfiguration().locale.toString();
 

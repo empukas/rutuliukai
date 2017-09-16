@@ -7,6 +7,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+
+import java.util.Random;
 
 
 /**
@@ -22,10 +25,12 @@ public class RegistracijaFragment extends Fragment  {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-
+    private final String ALLOWED_CHARACTERS ="0123456789qwertyuiopasdfghjklzxcvbnm";
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    static String raktas = null;
+    static String slaptazodis = null;
 
     private OnFragmentInteractionListener mListener;
 
@@ -64,7 +69,12 @@ public class RegistracijaFragment extends Fragment  {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_registracija, container, false);
+        final View view = inflater.inflate(R.layout.fragment_registracija, container, false);
+        TextView slapt = (TextView) view.findViewById(R.id.slaptazodis);
+        String slaptazodisPlain = getRandomString(6).toString();
+        slaptazodis = encrypt(slaptazodisPlain,"zilvinas");
+        slapt.setText(slaptazodisPlain);
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -89,6 +99,26 @@ public class RegistracijaFragment extends Fragment  {
     public void onDetach() {
         super.onDetach();
         mListener = null;
+    }
+
+    private String getRandomString(final int sizeOfRandomString)
+    {
+        final Random random=new Random();
+        final StringBuilder sb=new StringBuilder(sizeOfRandomString);
+        for(int i=0;i<sizeOfRandomString;++i)
+            sb.append(ALLOWED_CHARACTERS.charAt(random.nextInt(ALLOWED_CHARACTERS.length())));
+        return sb.toString();
+    }
+
+    static String encrypt(String text, final String key) {
+        String res = "";
+        for (int i = 0, j = 0; i < text.length(); i++) {
+            char c = text.charAt(i);
+            if (c < ' ' || c > 'z') continue;
+            res += (char)((c + key.charAt(j) - 2 * ' ') % 91 + ' ');
+            j = ++j % key.length();
+        }
+        return res;
     }
 
     /**

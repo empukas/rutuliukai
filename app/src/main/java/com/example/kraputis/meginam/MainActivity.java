@@ -7,17 +7,20 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.net.Uri;
+import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
+
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.RequestParams;
 import com.loopj.android.http.TextHttpResponseHandler;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -25,7 +28,6 @@ import java.util.Locale;
 import java.util.Random;
 
 import cz.msebera.android.httpclient.Header;
-import cz.msebera.android.httpclient.client.cache.Resource;
 
 
 public class MainActivity extends AppCompatActivity implements RegistracijaFragment.OnFragmentInteractionListener {
@@ -72,8 +74,74 @@ public class MainActivity extends AppCompatActivity implements RegistracijaFragm
     public void Registracija(){
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.PagrindinisLangas, new RegistracijaFragment());
+        //transaction.addToBackStack(null);
+        transaction.commit();
+    }
+
+    public void prisijungimas(View v){
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.PagrindinisLangas, new PrisijungtiFragment());
         transaction.addToBackStack(null);
         transaction.commit();
+    }
+
+    public void prisijungti(View v){
+        EditText slapyv = (EditText)findViewById(R.id.Slapyvardis_field);
+        EditText slaptaz = (EditText)findViewById(R.id.Slaptazodis_field);
+        String slaptText = slapyv.getText().toString();
+        String slapatzText = slaptaz.getText().toString();
+        slapatzText = encrypt(slapatzText,"zilvinas");
+
+        if(slapatzText.equals("") || slaptText.equals("")){
+            Toast.makeText(getApplicationContext(), "Kažkuris laukas tuščias.",
+                    Toast.LENGTH_LONG).show();
+        } else {
+
+            progress = ProgressDialog.show(this, "Palaukite", "uztruks pora sec", true);
+
+            AsyncHttpClient client = new AsyncHttpClient();
+            RequestParams params = new RequestParams();
+            params.put("NICKAS", slaptText);
+            params.put("SLAPTAZODIS", slapatzText);
+
+            client.post("http://www.ionic.96.lt/prisijungimas.php", params, new TextHttpResponseHandler() {
+                        @Override
+                        public void onSuccess(int statusCode, Header[] headers, String str) {
+                            // called when response HTTP status is "200 OK"
+                            Log.i("atsakymas", str);
+                            try {
+                                JSONObject js = new JSONObject(str);
+                                if (!(js.getString("DONE").equals("null")))
+                                    AtgalIsRegistracijos(js.getString("DONE"));
+
+                                else {
+                                    progress.dismiss();
+                                    AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+                                    builder.setMessage("Suvesti blogi duomenys")
+                                            .setCancelable(false)
+                                            .setTitle("Uuuuups")
+                                            .setPositiveButton("Koreguoti", new DialogInterface.OnClickListener() {
+                                                public void onClick(DialogInterface dialog, int id) {
+
+                                                }
+                                            });
+                                    AlertDialog alert = builder.create();
+                                    alert.show();
+                                }
+
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+                        }
+
+                        @Override
+                        public void onFailure(int statusCode, Header[] headers, String res, Throwable t) {
+
+                        }
+                    }
+            );
+        }
+
     }
 
     public void Registruotis(View v){
@@ -84,8 +152,10 @@ public class MainActivity extends AppCompatActivity implements RegistracijaFragm
         AsyncHttpClient client = new AsyncHttpClient();
         RequestParams params = new RequestParams();
         params.put("NICKAS", edit.getText().toString());
+        params.put("RAKTAS", RegistracijaFragment.raktas);
+        params.put("SLAPTAZODIS", RegistracijaFragment.slaptazodis);
 
-        client.get("http://www.ionic.96.lt/registracija.php", params, new TextHttpResponseHandler() {
+        client.post("http://www.ionic.96.lt/registracija.php", params, new TextHttpResponseHandler() {
                     @Override
                     public void onSuccess(int statusCode, Header[] headers, String str) {
                         // called when response HTTP status is "200 OK"
@@ -126,6 +196,7 @@ public class MainActivity extends AppCompatActivity implements RegistracijaFragm
     public void AtgalIsRegistracijos(String NICKAS){
         SqLite_database db = new SqLite_database(this);
         db.updateZAIDEJAS(NICKAS);
+        NICK = NICKAS;
         progress.dismiss();
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.PagrindinisLangas, new PradziaFragment());
@@ -195,5 +266,17 @@ public class MainActivity extends AppCompatActivity implements RegistracijaFragm
         transaction.addToBackStack(null);
         transaction.commit();
     }
+
+    static String encrypt(String text, final String key) {
+        String res = "";
+        for (int i = 0, j = 0; i < text.length(); i++) {
+            char c = text.charAt(i);
+            if (c < ' ' || c > 'z') continue;
+            res += (char)((c + key.charAt(j) - 2 * ' ') % 91 + ' ');
+            j = ++j % key.length();
+        }
+        return res;
+    }
+
 
 }

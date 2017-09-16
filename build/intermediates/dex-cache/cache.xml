@@ -3,21 +3,435 @@
 
     <item
         is-multidex="true"
-        jar="/Users/robertaksamaitis/Downloads/meginam/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        jar="C:\Users\Justinas\.android\build-cache\a607a8ad962419e048e985c546830f6481fbf56c\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="de88432411ffaac0664e78b08d4dc1937f53e2ca">
-        <dex dex="/Users/robertaksamaitis/Downloads/meginam/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_25fa486711ecaee2a7fabd85ca27a5ebd004e7dc/classes.dex" />
+        sha1="88ae4c6ceaeab7beca5e396e0698c6958e26a2d2">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3d22ff567c4c09e4dd41989d8156319eee82707c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/robertaksamaitis/Downloads/meginam/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        jar="C:\Users\Justinas\.android\build-cache\a64f9a1df8db00f127097b75a11da2f17ee895bc\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="/Users/robertaksamaitis/Downloads/meginam/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_62ac09771be76a58ed925643e11896603f8416e3/classes.dex" />
+        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_20802b4e292a978d5c1f633a15b132e9dbab0204\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\f99e739b21f90071a1b27289399fc5a43a512a5e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0e23941db151e67886844de6586e180bb2b860ad">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c87b3015caf0aaac2f06329d8edbdeac1d60ef82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\b760d671a1b1968648a63afdd6a81de4d7bec640\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c01990d0a9bbc67f4c2b9610c1170046c2e37b3e">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_36c2eb4c1cf633e3753852c23b7d23ac35e2a932\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\6e762d88d62b46d15ff02a4bbeeb57d0131a375e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b50fe5288bba9d1635ba619bd3c308319205543e">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e376a1c0292c5c7f7b00dc0b834a909f55631546\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\9fa3b4948bfdc8b410b23eb08afbbcba99275b62\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="aa6a6e385297077a344e0bb95ab6c22f22119261">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cf3388777660f53982aa414f002fc76dfcbe01e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\bc90c456b665db000b155828e270ad474d0746a6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="657abe17c5ba58f5d24803ba303c6005b180897a">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0a383d5f3e09eb94ede75413461b434c489e487f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\ecfcf4f30a62c8e53c9fcb766efdd854432a5db4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4eeba61bbc47e49a5fbdfd9aa21af5d10bf4df7c">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5d8458dc287f1e189eebb0db8d7b8c6097904a01\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\1f0ad4131d0a67a4d9ff1b3f9795272637dd4282\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d66b8668122393a15c90471c5c974c25439d193a">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4e5f0afa74d336fc8029ec74f56490fa294424f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\00c54352c1f1a60fc136995bf7d085d723397dc5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d2d27edb6fbc12fdf28008cdff920e66f08cf159">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1d302e5ca728e2493e958eb68e1069970be36c4f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\1e7611ed421647901103d6d8b91f70ca3df9e123\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="02e70fe04e0767ccfa16745b3398816d1171f0ad">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_13f83272fc91b035c2f5feaff121009b80521cd2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\61c3ac12651e1e641a06fca6e2724b1f5afb11a8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b2b4d3ecd541814f08200f8171def113095d5f39">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a0723552a99ac1017e48bee4a5fd10b237847dd4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\007593bc1d9df92ea9bc7ef7bd5af34d047d0c48\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="183e4fb7cf95f4fa54963cfcdaf0f4d7e2397bad">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_48a897a689e20d38507f15697638356b841f7c3a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\3237214686f25b6d88462b4f1f9587b671e8d594\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="98ac18f891a8279ae57c4771cbf4a2a65f95b04c">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c53a5363e93214e160763e904739b126de866af8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\b5fdbb36c94f3ca8e806c21ecce98c553b4483c2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cf120c2ce7808fd13b3209380d2b5329eae8678b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\05b94fa8e6868b99a5cf2ca9f02f8746d30092e8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c76804333008c855433cad5cfd1256e86045e97b">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8b1f14fc055e79d14f893e1f8458fd0967fc35fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\8e16bb0b0302f96cb1c1e869dd9e0dd8a48d5c90\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="688809418e4c2b5014a028c02708d6aeaba466ff">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e7141b68fbf2dafa3fd9ebcfb35b8b09ce5e4d89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\8cb3464cc351451ef1bffb76b2d94d0ca7ae6e52\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4136a26e453e55fdc913ed1e900d2709af3ed4a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\48dfb14a41fa06a683a725153c3f79186b38d710\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8748e15968514ff1708deb3bb7f0c17623e50bbb">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dd8cf485e499fc7dce0e1fcad654dab030dbbf98\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\00dd273b34e39493813fff2876bdb76a17c2b9ce\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2188ba20a948ec6e7fa671b818c69d876d8bf32d">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8806b942f118068b26f9c0da43f59f3c1676c080\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\e29aa3c070ccdbcc7bf508ed44b449846640ab93\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2ed7ba48801a0a361727833ade3b6cf096968cc0">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_125e11348fe3918a682184f34112413867b53f43\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\1597b28ed88a12749ec96bec126cbf08b3f6b7c8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6b8d1a53648f7ecfe9e7bf0baf9ca657c5a1ff91">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_43fcdd2b8c493b97b71aacffe2c0a1cce48be244\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\f693611e80da9dddb0c041bff94fee4913aaebf7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="597d0d34e15e713c486e8f4ccf739f0c7d05bde4">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2032cdfa32b92569d1658af70352198cf7960424\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\be59e48d9a8ac3307bef6818a59b1ca16ce24867\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d72eb1ceff1b0bac4916088eb44bb93f86b1265c">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_337b315f017aaa9eb25fb17a8d2e52d66bc18b3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\e32d1ae57206c0fbfd2615cb9d0c0f418feaa9c8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5cba8868595f6aaff54cf7d1798591108cf5611c">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_659418b1296d3682c9fa5e2004cca584ea39854b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\8e5872bccfb914f6089fb5e119b150171dc428ce\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="143e5647b772c08c9f0d807b24bbc0b05ff6c7d2">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_359f52ee7f24d5ae5c8cf0a986e3277f8d427e91\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\cb7aa3cae6d1ad5ada1a890750a5a6e58a511742\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fe159787dd4c4bc9ed6a9d4f7430e9af1f3516c8">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ddb152d100926f6c14af7e346634a711a1c22070\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\dddb8779bcaba9aabb5cd717b0f57f04b717e76e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1b95f2bf44857a158b097e9f80d5d18d69f32584">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d18017fedc58a136a9980f4c5051512fc11dd995\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\c4b83f7b152154f849fd73a41159a11a84621ac9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6c8a4af7cf76d958c76ed7682f39e4b386b69305">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0e33a509db27087c0cce93444278eb6fe618270e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\dc818348382c4dcc81be3e897e71bd74bd8dfc1b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="acc7a846f0bc56ecccda535fc919fd338b2b3e2c">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f8480581c33a2136b7d9ea02cb92d93dbf673fd9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\0ab7ff1ec8fadfdf6c821a9bd960b3117c8e723c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="32aa1b2a2f68f455403d10d41d8ded37c9812f11">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_769adc129e4d7288105f1dd261f7137c12260fa6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\dafcb9999fb5c938ded6e51d1d2072151d2bc03c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="29e4e634375ab2ed25f8db5387b564c78980422a">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3169914213d1bdfd98e136a4c814436cd21837ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\cb84763f4c9ead4aa699c63fb9626cb4a365a30d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7e0f082141b7aa90aab5d3a47ab09b0edc958f6b">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9afab245a19ea59bd8ae317d08c49cfca2070850\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\b0208b18e60f0c7a23df510812bfec88b6b3494d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="29d9916bd9ad8406a53edbafbbce5e18943aa882">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_838438a65160905a8ffcdc72957403585e8697dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\2e7fdbabd157e5baac98e5a3683bb9333c5949e6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="43df709c95f6b0501b3adbc7da992b6a69a03214">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a4a3ffcac1dc2071f2eae7dfadaa7c694524c673\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\5b00f1f0212f55cd13b74815287290e88906b95e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a75030f7a3f5f96a15acdab44829bed93154d09f">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_84634233b0ea360269ac89dbda470457b99b2473\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\337c9eeda90621ea2a18730d33faf663388913b3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="610ae6a6872d9718fc05e2c726758206bd367595">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5de8aaeac820b1f24ebbe40cba78eb09d7cc389c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\2b3835900fb5e58e80f60b4d7efa1c5cbda6b0ce\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="80ecaefc1035fde747999e4c20e18d207363efa2">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bde272fb8c4b4df02aa47c41e40b35e64cdd1a32\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\d2111a776800c929d79c101905f2619813c5e1c6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6b8ad09b76c4ffaedf443ca54bc2418760870689">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9cd60495dcdc2bbdbc59ed452ab8f6f657aca0b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\60b7565b3342d21716d306d109bd90d766913c33\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="93094dbb2af50e23339620bebd7b4b6161410edb">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0892fbb50c3a85cec3e89a4de3b5ee27edeeea6d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\628c38922e452baef8e8c459d55fce72fb417395\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a9c8affe1f564ec0d063be68469d26e972455217">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_052a1e5e7d933751135a272a8fd911a0ae48f181\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\dd3eeb0a7a93b786d99b0a623dcf82ffe77531b7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="90236fba9ac4dfb1f4196e231aab964522143ef6">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6d0bddb96355661d51466ef9e7f234229ffdb8b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\60ce7eaf883c5353047dadb572c56e512702eb5b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="701c58abf53f488bc5bb0162f1305a38a32fb5f1">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fc1046dce97210b7dca4777364043d3f2885d492\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\7b70b2723401bcac7dd38f686035c14f25d6fe6b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="287051610dd01cc6eeaed7fc689712c31ad1ff70">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fefb6511415b27a50d1c8bbc7db03ea4d5da06fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\e1855243c05aaa2f0ce8cf92099e5523876ed7a9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dde643ce80b967f869e9b111255815ba4d391653">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9e625f602cd7e5ae57ffbbbec1dd78a2ee7b8c75\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\e4cc0b6ad8146ca64557329796d8a89403a21610\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8fdf15d202000492aefe43092b21af5332df0178">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7e0668ef61cf760efbd7864b5603f32d84c85f3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\faf66f41198931768f618c178407f285703a3a03\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_454a6a12def30b3f84aafdb0ebd1705c12f39f19\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Justinas\.android\build-cache\2f17aa7730df98152dad95ab284646a10252d26b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="54933c89f90a872aa342004e82b23e776fe12736">
+        <dex dex="E:\AndroidStudio\rutuliukai\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f524a5b10fdc1acef89ef60fece3bfe2121b1498\classes.dex" />
     </item>
 
 </items>
